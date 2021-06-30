@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -126,7 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* This changes the NavBar BG Color */
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgb(255, 255, 255);
+    background-image: url(https://www.xmple.com/wallpaper/gradient-linear-yellow-2048x2732-c2-ffefd5-ffdab9-a-105-f-14.svg);
+
   padding: 12px 0;
 }
 
@@ -411,12 +412,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(136, 136, 136, 0.8) 0%, rgba(117, 117, 117, 0.6) 100%), url("https://lh3.googleusercontent.com/9eIho39V9Cg85u8ezka1-bQqX4-LGWsnn1mDLAOL4egW2B_dQ2r5nPZxRUaDLroVSCJieXS5GBcilEdX=w960-h960-n-o-v1") center center no-repeat;
+  background: linear-gradient(45deg, rgba(243, 197, 112, 0.5) 0%, rgba(158, 58, 240, 0.5) 100%), url(mountains.jpg) center center no-repeat;
   background-size: cover;
 }
 
 #hero .container, #hero .container-fluid {
-  padding-top: 84px;
+  padding-top: 94px;
+  padding-bottom: 84px;
 }
 
 #hero h1 {
@@ -449,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #000000;
 }
 
 #hero .animated {
@@ -557,7 +559,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #000000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -570,13 +572,14 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 120px 0;
+  padding: 100px 0;
+  background-image: url(https://www.xmple.com/wallpaper/gradient-linear-yellow-2048x2732-c2-ffefd5-ffdab9-a-105-f-14.svg);
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #000000;
 }
 
 .about .content ul {
@@ -591,7 +594,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #000000;
 }
 
 .about .content p:last-child {
