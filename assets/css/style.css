@@ -24,6 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: rgba(0, 0, 0, 1);
   font-family: 'Prata', serif;
 }
 
@@ -653,7 +654,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding: 100px 0;
-  background: linear-gradient(45deg, rgba(243, 197, 112, 0.5) 0%, rgba(158, 58, 240, 0.5) 100%), url(https://www.myfreetextures.com/wp-content/uploads/2012/07/sand-texture.jpg) center center no-repeat;
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(plants.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -879,7 +880,7 @@ background-color: whitesmoke;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d69d00;
+  background-color: #3a3a3a;
 }
 
 @media (max-width: 767px) {
@@ -1265,7 +1266,7 @@ background-color: whitesmoke;
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.9) 0%, rgba(179, 179, 179, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
