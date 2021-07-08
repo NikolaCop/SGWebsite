@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background-color: rgb(245, 245, 235);
 }
 
 #preloader:before {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #000000;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -127,7 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* This changes the NavBar BG Color */
 #header.header-scrolled, #header.header-inner-pages {
-  background-color: whitesmoke;
+    background-color: rgb(245, 245, 235);
+
   padding: 12px 0;
 }
 
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 5px;
-  color: #fff;
+  background-color: rgb(245, 245, 235);
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
@@ -249,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background-color: rgb(245, 245, 235);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -261,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
-  color: #2c4964;
+  color: #000000;
 }
 
 .navbar .dropdown ul a i {
@@ -328,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -347,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(245, 245, 235);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -359,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #000000;
 }
 
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -367,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5846f9;
+  color: #6e6e6e;
 }
 
 .navbar-mobile .getstarted {
@@ -382,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background-color: rgb(245, 245, 235);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -536,7 +537,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f8ff;
+    background-color: rgb(245, 245, 235);
+
 }
 
 .section-title {
@@ -573,7 +575,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 100px 0;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 235);
 }
 
 .about .content h3 {
@@ -805,7 +807,8 @@ margin: 0 auto;
 
 .testimonials {
   padding: 100px 0;
-background-color: whitesmoke;
+  background-color: rgb(245, 245, 235);
+
 
 }
 
@@ -1087,7 +1090,8 @@ background-color: whitesmoke;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
-  background: #fff;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%),;
+  border-radius: 10px;
 }
 
 .contact .info-box i {
@@ -1267,7 +1271,7 @@ background-color: whitesmoke;
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.9) 0%, rgba(179, 179, 179, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(100, 100, 100, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
   background-size: cover;
 }
 
