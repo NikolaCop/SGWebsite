@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(243, 197, 112, 0.5) 0%, rgba(158, 58, 240, 0.5) 100%), url(mountains.jpg) center center no-repeat;
+  background: linear-gradient(45deg, rgba(243, 197, 112, 0.3) 0%, rgba(158, 58, 240, 0.3) 100%), url(mountains.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -436,24 +436,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
-#hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 5px;
-  transition: 0.5s;
-  margin-top: 30px;
-  color: #fff;
-  border: 2px solid #fff;
-}
 
-#hero .btn-get-started:hover {
-  background: #fff;
-  color: #000000;
-}
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -570,14 +553,6 @@ section {
   margin-bottom: 0;
 }
 
-
-
-
-              /* <img src="assets/SolidGoldImages/ShopBanner.jpeg" class="img-fluid" alt=""> */
-
-
-
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -613,7 +588,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Services
+# Weekly Drops
 --------------------------------------------------------------*/
 .weeklydrops {
   background: linear-gradient(45deg, rgba(27, 27, 27, 0.5) 25%, rgba(121, 121, 121, 0.6) 75%), url(weeklydrops.jpg) center;
@@ -625,8 +600,12 @@ section {
 }
 
 .weeklyText {
-  text-shadow: black 3px 3px 3px;
+  text-shadow: black 2px 2px 3px;
 }
+
+/*--------------------------------------------------------------
+# Shop Section
+--------------------------------------------------------------*/
 
 .services {
   padding: 100px 0;
@@ -635,15 +614,9 @@ section {
   background-size: cover;
 }
 
-.dropImg {
-margin: 0 auto;
-  width: 200px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
+#shopBtn {
+  border-radius: 30px;
+  box-shadow: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -651,7 +624,7 @@ margin: 0 auto;
 --------------------------------------------------------------*/
 
 .testimonials {
-  background-color: rgb(245, 245, 235);
+  background: rgba(245, 245, 235,);
 }
 
 .testimonials .testimonial-item {
@@ -696,12 +669,14 @@ margin: 0 auto;
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #fff;
+  background: url(testimonialBG.png);
   position: relative;
-  border-radius: 6px;
+  border-radius: 25px;
   position: relative;
+  height: 300px;
+  width: 320px;
   z-index: 1;
-  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: black 0.5px 0.5px 2px;
 }
 
 .testimonials .swiper-pagination {
@@ -712,30 +687,31 @@ margin: 0 auto;
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   opacity: 1;
-  border: 1px solid #000000;
+  border: 1px solid #5b5b5b;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #3a3a3a;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+  background: url(cactus.jpg) center;
+  background-size: cover;
+}
+
 .contact .info-box {
-  color: #444444;
+  background-color: rgba(133, 133, 133, 0.6);
+  color: rgb(197, 197, 197);
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   padding: 20px 0 30px 0;
-    background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%),;
   border-radius: 10px;
 }
 
@@ -758,85 +734,6 @@ margin: 0 auto;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-}
-
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-  background: #fff;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 5px;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5846f9;
-}
-
-.contact .php-email-form input {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #5846f9;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #7b27d8;
 }
 
 @-webkit-keyframes animate-loading {
