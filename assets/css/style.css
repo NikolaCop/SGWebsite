@@ -587,8 +587,9 @@ section {
 # Weekly Drops
 --------------------------------------------------------------*/
 .weeklydrops {
-  background: linear-gradient(45deg, rgba(27, 27, 27, 0.5) 25%, rgba(121, 121, 121, 0.6) 75%), url(weeklydrops.jpg) center;
+  background: linear-gradient(45deg, rgba(27, 27, 27, 0.5) 25%, rgba(121, 121, 121, 0.6) 75%), url(weeklydrops.jpg) center center no-repeat;
   background-size: cover;
+  background-position: responsive;
 }
 
 #weeklyDropsButton {
@@ -675,7 +676,7 @@ section {
   height: 300px;
   width: 320px;
   z-index: 1;
-  box-shadow: black 0.5px 0.5px 2px;
+  box-shadow: black 2px;
 }
 
 .testimonials .swiper-pagination {
