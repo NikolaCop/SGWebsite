@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 5px;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -513,7 +513,7 @@ section {
 }
 
 .section-bg {
-    background-color: rgb(245, 245, 235);
+    background-color: whitesmoke;
 
 }
 
@@ -551,7 +551,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 100px 0;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
 }
 #aboutImg{
   border-radius: 5px;
@@ -624,7 +624,7 @@ section {
 --------------------------------------------------------------*/
 
 .testimonials {
-  background: rgba(245, 245, 235,);
+  background: whitesmoke;
 }
 
 .testimonials .testimonial-item {
