@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background-color: rgb(245, 245, 235);
+  background-color: whitesmoke;
 }
 
 #preloader:before {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* This changes the NavBar BG Color */
 #header.header-scrolled, #header.header-inner-pages {
-    background-color: rgb(245, 245, 235);
+    background-color: whitesmoke;
 
   padding: 12px 0;
 }
