@@ -551,7 +551,8 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 100px 0;
-  background-color: whitesmoke;
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%), url(https://wallpaperaccess.com/full/2584808.jpg) center center no-repeat;
+  color: white;
 }
 #aboutImg{
   border-radius: 5px;
@@ -587,7 +588,7 @@ section {
 # Weekly Drops
 --------------------------------------------------------------*/
 .weeklydrops {
-  background: linear-gradient(45deg, rgba(27, 27, 27, 0.5) 25%, rgba(121, 121, 121, 0.6) 75%), url(weeklydrops.jpg) center center no-repeat;
+  background-color: whitesmoke;
   background-size: cover;
   background-position: responsive;
 }
@@ -606,7 +607,7 @@ section {
 
 .services {
   padding: 100px 0;
-  background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%), url(https://wallpaperaccess.com/full/2584808.jpg) center center no-repeat;
+  background-color: whitesmoke;
   background-size: cover;
 }
 
