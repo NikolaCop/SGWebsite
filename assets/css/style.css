@@ -630,7 +630,7 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  min-height: 200px;
 }
 
 
@@ -670,12 +670,12 @@ section {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: url(testimonialBG.png);
+  background: white;
   position: relative;
   border-radius: 25px;
   position: relative;
-  height: 300px;
-  width: 320px;
+  height: 200px;
+  width: 350px;
   z-index: 1;
   box-shadow: black 2px;
 }
