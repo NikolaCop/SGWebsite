@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(243, 197, 112, 0.3) 0%, rgba(158, 58, 240, 0.3) 100%), url(mountains.jpg) center center no-repeat;
+  background: linear-gradient(45deg, rgba(243, 197, 112, 0.3) 0%, rgba(158, 58, 240, 0.3) 100%), url(SectionOneBG.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -551,7 +551,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 100px 0;
-  background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%), url(https://wallpaperaccess.com/full/2584808.jpg) center center no-repeat;
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%), url(aboutBG.jpg) center center no-repeat;
   color: white;
 }
 #aboutImg{
@@ -703,7 +703,7 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-  background: url(cactus.jpg) center;
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.5) 0%, rgba(121, 121, 121, 0.6) 100%), url(contactBG.jpeg) center center no-repeat;
   background-size: cover;
 }
 
@@ -814,7 +814,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(100, 100, 100, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(180deg, rgba(76, 76, 76, 0.9) 5%, rgba(0, 0, 0, 0.9) 95%);
   background-size: cover;
 }
 
